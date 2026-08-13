@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "BP_Struct_Translation_HH_WIP",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "11877C1B-474A6258-DDFE3AA6-2BFE73B1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "en-US_6_95361A54440BD139540F15BAF78348A1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "es-ES_8_6F20F8004D6F470B2AA480A522C5FBE4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "pt-BR_10_BF1B6BBD4C06388D90A095BC84E86DCF",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "pl-PL_12_F688C4924BC5EA6498F9B984460AC066",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "de-DE_14_789213B3414B7DBCC087A4A0823420CB",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "zh-CN_16_6A0C6EA840A25C12E0F7FAB5C21A2509",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "zh-TW_18_06F442DF471A57670D12C288B8CCDD27",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "cs-CZ_20_0FA43D6A40CD0BD58C6A729742FA3FCA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "fr-FR_22_06DD333E41D513D5299BD2B5C87BCFED",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "hu-HU_24_BE7B7E824EB88B4E15E7428EEB8445C4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "it-IT_26_7B2DC5DB493CFA8B6258D5A43B159603",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "ja-JP_28_09F6949741C589A90E6576AFE0B0A454",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "ko-KR_30_B3590B3E4FB653573089AABC34B3B687",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "ru-RU_32_9C1E99154FC2258B16EB76A2049F695C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "th-TH_34_DD51E80041382F42059AD1AA2487765D",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "tr-TR_36_38EBDB2C41CF5B85BDC11DB468A9BFEF",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "en-US_6_95361A54440BD139540F15BAF78348A1": "",
+      "es-ES_8_6F20F8004D6F470B2AA480A522C5FBE4": "",
+      "pt-BR_10_BF1B6BBD4C06388D90A095BC84E86DCF": "",
+      "pl-PL_12_F688C4924BC5EA6498F9B984460AC066": "",
+      "de-DE_14_789213B3414B7DBCC087A4A0823420CB": "",
+      "zh-CN_16_6A0C6EA840A25C12E0F7FAB5C21A2509": "",
+      "zh-TW_18_06F442DF471A57670D12C288B8CCDD27": "",
+      "cs-CZ_20_0FA43D6A40CD0BD58C6A729742FA3FCA": "",
+      "fr-FR_22_06DD333E41D513D5299BD2B5C87BCFED": "",
+      "hu-HU_24_BE7B7E824EB88B4E15E7428EEB8445C4": "",
+      "it-IT_26_7B2DC5DB493CFA8B6258D5A43B159603": "",
+      "ja-JP_28_09F6949741C589A90E6576AFE0B0A454": "",
+      "ko-KR_30_B3590B3E4FB653573089AABC34B3B687": "",
+      "ru-RU_32_9C1E99154FC2258B16EB76A2049F695C": "",
+      "th-TH_34_DD51E80041382F42059AD1AA2487765D": "",
+      "tr-TR_36_38EBDB2C41CF5B85BDC11DB468A9BFEF": ""
+    }
+  }
+]

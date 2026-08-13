@@ -1,0 +1,321 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard_GEN_VARIABLE",
+    "Outer": "Resource_Stone_C",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'3d-hammer'",
+        "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+      },
+      "bIsScreenSizeScaled": true
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resource_Stone_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Resource_Stone_C:SimpleConstructionScript_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Resource'",
+      "ObjectPath": "/Script/ManorLords"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "workpos",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Billboard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BillboardComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resource_Stone_C'Default__Resource_Stone_C'",
+      "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Resource_Stone_C",
+    "Name": "Default__Resource_Stone_C",
+    "Class": "BlueprintGeneratedClass'ManorLords/Content/CPP_BP/Resources/Resource_Stone.Resource_Stone_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "resType": "res_stone",
+      "DisplayName": "res_stone",
+      "amt": 20,
+      "Type": 15,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Stone_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.9"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Stone_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Resource_Stone_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "workpos_GEN_VARIABLE",
+    "Outer": "Resource_Stone_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -8.784662,
+        "Y": 1.737709,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -76.61673,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "workpos"
+      ]
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Stone_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.3"
+      },
+      "VariableGuid": "E63D2699-402A2C2C-8B2798BB-0F9B2E6B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BillboardComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BillboardComponent'Resource_Stone_C:Billboard_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.0"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "Sprite",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BillboardComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bIsScreenSizeScaled",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BillboardComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "94A03983-41338082-C3BA349A-8721E1D4",
+      "InternalVariableName": "Billboard"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Stone_C:workpos_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.4"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Y",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "RelativeRotation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Yaw",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "ScriptStruct'Rotator'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "ComponentTags",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "None",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SceneComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C83B87F5-41A0A75D-6AE61988-36A947AD",
+      "InternalVariableName": "workpos"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Resource_Stone_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Stone_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Stone_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Stone_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Stone_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Resource_Stone_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Stone.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Default__Resource_Stone_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MERGED_Resource_Stone'",
+        "ObjectPath": "ManorLords/Content/ManorLords/ResourcesStatic/SM_MERGED_Resource_Stone.2"
+      },
+      "bUseDefaultCollision": false,
+      "LDMaxDrawDistance": 80000.0,
+      "CachedMaxDrawDistance": 80000.0,
+      "bVisibleInReflectionCaptures": false,
+      "bVisibleInRealTimeSkyCaptures": false,
+      "bReceivesDecals": false,
+      "bRenderCustomDepth": true,
+      "CustomDepthStencilValue": 255,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      }
+    }
+  }
+]

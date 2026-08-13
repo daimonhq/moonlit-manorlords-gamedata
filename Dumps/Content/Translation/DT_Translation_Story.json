@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Story",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'Struct_Translation'",
+        "ObjectPath": "ManorLords/Content/Translation/WIP/Struct_Translation.0"
+      }
+    },
+    "Rows": {
+      "settlement_intro": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Establishing a Foothold",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "settlement_intro_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "There is a fire at the heart of every settlement: a bastion of safety, warmth and light against the darkness of the world.{br}{br}On this cold spring morning, your men blow on their fingertips, their breath clouding in the air. But there is plenty of work to warm them. As the toil begins, you can almost imagine you hear the ring of anvils, the tolling of bells, the cries of the marketplace. Possibilities. {br}{br}In the distance, fog lingers in the hollows of the land, and the world is quiet, watchful, waiting for you to choose which of those to make real. ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_roads": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Roads & Handcarts",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Drogi, oraz wozy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_roads_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Some workers can use <img id=\"Cart\"/><h> HANDCARTS</> to transport goods more efficiently - up to 10 items at once. {br} To enable handcart transportation,  <img id=\"Roadpos\"/> <h>ROAD POINTS</> from both buildings have to be connected by the road network.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_rebellions": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rebellion incoming",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_rebellions_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "When <img id=\"Loyalty\"/> <h>LOYALTY</> drop to -100%, the peasants in the Region rise against your rule.{br}If the Region has less than 6 <img id=\"Pop\"/> Families, the ownership transfers to another Lord. {br}If it's your last Region, it's <h>GAME OVER</> !",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_fieldPlacing": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Flexible Plots",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_fieldPlacing_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Some buildings have <img id=\"Area\"/> flexible borders. <h>Place 4 points</> to designate an area.{br}The cursor will snap to the Roads and other Plots, to try and create an organic shape.{br}You can leave more space for future <img id=\"Extension\"/> <h>EXTENSION UPGRADES</>. {br}{br}<h>First two points mark the front of the house by default.</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "manor_quest": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "My home is my castle",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "manor_quest_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Good craftsmanship marries form and function. It is solid and reliable, but it dreams of perfection. It's a lot like leadership, that way. {br}{br}Perhaps that is why you've insisted that your servants drag your favourite chair to the settlement. It's a lordly chair, the back covered in exquisite carvings of unicorns and griffons. The well-worn arms feel secure. But it is heavy, and it looks out of place in a shoddy tent. It deserves a place of honour in a great hall, where you could welcome guests, or retreat with your retinue, or conduct business around the fire.{br}{br}You have provided homes and comforts for your people. Now it's time to plan your own residence. Your manor will speak of your power to your own people and to the lords of neighbouring lands. ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "residential_quest": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The Humble Beginnings",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "residential_quest_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Your supplies are dry and secure, and the first stage of work is done. {br}{br}The stories your people tell around the fire are of the many dangers in the world, from beasts to blights. Strange tales about foxes who go on pilgrimage, or small creatures who spin gold from sunset to sunrise. They tell these stories to put common names to their fears.Soon, they'll teach these stories to their own children. {br}{br}It's time to bring wives and children to the settlement, now that they can take shelter in proper homes. For your lands to prosper and grow, you'll need not only workers, but families.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "lv2_quest": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Comforts and Conveniences",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "lv2_quest_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "As you walk the perimeter, surveying your village with pride, a woman walks past you. {br}{br}She's bent nearly double under a sack. You ask how long she's been walking, and she tells you it takes her half a day now to get all the food she needs for her family from the hunters and farmers that surround the village. {br}{br}If only there was a marketplace where your people could acquire food, clothing, and firewood, they would be happier and have more time for other work.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "royal_tax": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The King Demands",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "royal_tax_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "To the region of {homeRegion}, you are hereby on omission of debt for the lands on which the royal crown has granted stewardship to the honourable {playerName}.  A tax is to be levied upon the land to be paid in precious wealth or labor.  Failure to submit payment will find the lands forfeit the governance under the stewards and returned to the crown.  ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "--BARON--": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "prepare_for_raid": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Restoring the Peace",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "prepare_for_raid_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "By the grace of His Royal Highness, the Prince of this realm, you have been chosen to govern a land of great peril and promise. This land has suffered long from the scourge of banditry, and its people cry out for justice and protection. The Prince has bestowed upon you the authority and the duty to restore law and order in this land, using your own means and forces. You shall face the bandit menace, and also the hardships of ruling a forsaken domain. Your ultimate task is to seek out and vanquish the bandit lord who commands the raids and oppresses the villages. Will you prove yourself worthy of this honor, or will you perish by the bandits’ steel? The destiny of this land rests upon your shoulders.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      }
+    }
+  }
+]

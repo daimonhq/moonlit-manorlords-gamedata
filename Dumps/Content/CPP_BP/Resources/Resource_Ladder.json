@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resource_Ladder_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Resource_Ladder_C:SimpleConstructionScript_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Resource'",
+      "ObjectPath": "/Script/ManorLords"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resource_Ladder_C'Default__Resource_Ladder_C'",
+      "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Resource_Ladder_C",
+    "Name": "Default__Resource_Ladder_C",
+    "Class": "BlueprintGeneratedClass'ManorLords/Content/CPP_BP/Resources/Resource_Ladder.Resource_Ladder_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "resType": "res_ladder",
+      "amt": 1,
+      "Type": 322,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Ladder_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.6"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Ladder_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Resource_Ladder_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Ladder_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.2"
+      },
+      "VariableGuid": "857B6789-409C8561-C5EBF38F-9C0F26F7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Ladder_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.7"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "079F87A3-43BCFFFD-97EE18B3-28B406EF",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Resource_Ladder_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Ladder_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.4"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Ladder_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.4"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Resource_Ladder_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Ladder.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Default__Resource_Ladder_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bReceivesDecals": false,
+      "bRenderCustomDepth": true,
+      "CustomDepthStencilValue": 255,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "Resource_Ladder_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'UBeam_LadderLong'",
+        "ObjectPath": "ManorLords/Content/ManorLords/Buildings/CommonAssets/UnifiedBeams/Meshes/UBeam_LadderLong.2"
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 3.0,
+        "Z": 2.0
+      }
+    }
+  }
+]

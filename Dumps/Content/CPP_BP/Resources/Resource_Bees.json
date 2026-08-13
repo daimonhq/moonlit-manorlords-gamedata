@@ -1,0 +1,530 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resource_Bees_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Resource_Bees_C:SimpleConstructionScript_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Resource'",
+      "ObjectPath": "/Script/ManorLords"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParticleSystem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstancedStaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'InstancedStaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resource_Bees_C'Default__Resource_Bees_C'",
+      "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "InstancedStaticMeshComponent",
+    "Name": "InstancedStaticMesh_GEN_VARIABLE",
+    "Outer": "Resource_Bees_C",
+    "Class": "UScriptClass'InstancedStaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_flower_poppy_a_NOLOD'",
+        "ObjectPath": "ManorLords/Content/Poplar_Forest/Meshes/Foliage/SM_flower_poppy_a_NOLOD.2"
+      },
+      "bHasPerInstanceHitProxies": true,
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    },
+    "PerInstanceSMData": [
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.45732763,
+            "W": 0.88739425,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.99661714
+          },
+          "Translation": {
+            "X": 100.48938,
+            "Y": -128.97525,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.9999998,
+            "Y": 0.9999998,
+            "Z": 0.88523865
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.99830717,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 162.51726,
+            "Y": -113.45767,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.043464385,
+            "Y": 0.0027335046,
+            "Z": 0.99538875,
+            "W": -0.06262458,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.99661726
+          },
+          "Translation": {
+            "X": -37.83699,
+            "Y": -61.69715,
+            "Z": -2.3146756
+          },
+          "Scale3D": {
+            "X": 0.9999785,
+            "Y": 0.9999777,
+            "Z": 0.99999213
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -1.5396747E-08,
+            "Y": 1.6058607E-08,
+            "Z": -0.18704924,
+            "W": 0.98062724,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 37.334595,
+            "Y": -45.401672,
+            "Z": -1.4345641
+          },
+          "Scale3D": {
+            "X": 0.9999961,
+            "Y": 0.99998593,
+            "Z": 0.8182009
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.7064146,
+            "W": 0.7054046,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 14.116225,
+            "Y": -144.14145,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.999997,
+            "Y": 0.999997,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.36169356,
+            "W": 0.9304811,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.99661726
+          },
+          "Translation": {
+            "X": -2.0158305,
+            "Y": -100.29771,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.9999997,
+            "Y": 0.9999997,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.99830717,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 132.20908,
+            "Y": -76.688416,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 0.8933252
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.8607143,
+            "W": 0.50575495,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 76.1564,
+            "Y": -77.71103,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.7445682,
+            "W": 0.6650077,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 147.98764,
+            "Y": -33.338165,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.9999971,
+            "Y": 0.9999971,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.99830717,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.72337353,
+            "W": 0.68800294,
+            "IsNormalized": true,
+            "Size": 0.9983072,
+            "SizeSquared": 0.9966173
+          },
+          "Translation": {
+            "X": 74.36051,
+            "Y": -140.83743,
+            "Z": -8.26355
+          },
+          "Scale3D": {
+            "X": 0.9999997,
+            "Y": 0.9999997,
+            "Z": 0.8262086
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.7371019,
+            "W": 0.6732741,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 82.379395,
+            "Y": 3.207152,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.99999803,
+            "Y": 0.99999803,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      }
+    ]
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "Resource_Bees_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'P_Insects'",
+        "ObjectPath": "ManorLords/Content/Assets/InfinityBladeEffects/Effects/FX_Ambient/Snow/P_Insects.19"
+      },
+      "LDMaxDrawDistance": 5000.0,
+      "CachedMaxDrawDistance": 5000.0,
+      "DetailMode": "EDetailMode::DM_Medium",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "Resource_Bees_C",
+    "Name": "Default__Resource_Bees_C",
+    "Class": "BlueprintGeneratedClass'ManorLords/Content/CPP_BP/Resources/Resource_Bees.Resource_Bees_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "resType": "res_bees",
+      "Type": 141,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Bees_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.9"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Bees_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Resource_Bees_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Bees_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.4"
+      },
+      "VariableGuid": "3650E5C8-41166862-5D89AEBB-6251DC44",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'InstancedStaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "InstancedStaticMeshComponent'Resource_Bees_C:InstancedStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.1"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5A89BA17-49E6E96F-8AEA14B4-89912517",
+      "InternalVariableName": "InstancedStaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'Resource_Bees_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0F2D1BB0-4AEB7C66-D5F95383-89BE0732",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Resource_Bees_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Bees_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Bees_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Bees_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Bees_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Resource_Bees_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Bees.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Default__Resource_Bees_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      }
+    }
+  }
+]

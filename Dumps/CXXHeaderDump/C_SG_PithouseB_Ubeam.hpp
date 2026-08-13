@@ -1,0 +1,50 @@
+#ifndef UE4SS_SDK_C_SG_PithouseB_Ubeam_HPP
+#define UE4SS_SDK_C_SG_PithouseB_Ubeam_HPP
+
+class AC_SG_PithouseB_Ubeam_C : public AConstructionBP_C
+{
+    class UStaticMeshComponent* Roof_PithouseB_Ubeam2_StaticMeshComponent0;           // 0x0568 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB12_StaticMeshComponent0;            // 0x0570 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB11_StaticMeshComponent0;            // 0x0578 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB10_StaticMeshComponent0;            // 0x0580 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB9_StaticMeshComponent0;             // 0x0588 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseCorner8_StaticMeshComponent0;               // 0x0590 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseCorner7_StaticMeshComponent0;               // 0x0598 (size: 0x8)
+    class UStaticMeshComponent* planeDenseTopBevel5_StaticMeshComponent0;             // 0x05A0 (size: 0x8)
+    class UStaticMeshComponent* ropeKnotA8_StaticMeshComponent0;                      // 0x05A8 (size: 0x8)
+    class UStaticMeshComponent* ropeKnotA7_StaticMeshComponent0;                      // 0x05B0 (size: 0x8)
+    class UStaticMeshComponent* ropeTubeC_smoother5_StaticMeshComponent0;             // 0x05B8 (size: 0x8)
+    class UStaticMeshComponent* ropeTubeC_smoother4_StaticMeshComponent0;             // 0x05C0 (size: 0x8)
+    class UStaticMeshComponent* ropeKnotA6_StaticMeshComponent0;                      // 0x05C8 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB8_StaticMeshComponent0;             // 0x05D0 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseBeveledB7_StaticMeshComponent0;             // 0x05D8 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseCorner6_StaticMeshComponent0;               // 0x05E0 (size: 0x8)
+    class UStaticMeshComponent* PlaneDenseCorner5_StaticMeshComponent0;               // 0x05E8 (size: 0x8)
+    class UStaticMeshComponent* planeDenseTopBevel4_StaticMeshComponent0;             // 0x05F0 (size: 0x8)
+    class UStaticMeshComponent* ropeKnotA2_StaticMeshComponent0;                      // 0x05F8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight24_StaticMeshComponent0;          // 0x0600 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight23_StaticMeshComponent0;          // 0x0608 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight22_StaticMeshComponent0;          // 0x0610 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight21_StaticMeshComponent0;          // 0x0618 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight20_StaticMeshComponent0;          // 0x0620 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight19_StaticMeshComponent0;          // 0x0628 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight18_StaticMeshComponent0;          // 0x0630 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m14_StaticMeshComponent0;                // 0x0638 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m13_StaticMeshComponent0;                // 0x0640 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m_rough4_StaticMeshComponent0;                 // 0x0648 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight17_StaticMeshComponent0;          // 0x0650 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight16_StaticMeshComponent0;          // 0x0658 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight15_StaticMeshComponent0;          // 0x0660 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight14_StaticMeshComponent0;          // 0x0668 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Strut_Straight13_StaticMeshComponent0;          // 0x0670 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m12_StaticMeshComponent0;                // 0x0678 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m11_StaticMeshComponent0;                // 0x0680 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m_rough3_StaticMeshComponent0;                 // 0x0688 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m10_StaticMeshComponent0;                // 0x0690 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m9_StaticMeshComponent0;                 // 0x0698 (size: 0x8)
+    class UStaticMeshComponent* UBeam_round_6m8_StaticMeshComponent0;                 // 0x06A0 (size: 0x8)
+    class USceneComponent* C_SG_PithouseB_Ubeam2_DefaultSceneRoot;                    // 0x06A8 (size: 0x8)
+
+}; // Size: 0x6B0
+
+#endif

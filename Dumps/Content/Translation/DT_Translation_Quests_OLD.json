@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Quests_OLD",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'Struct_Translation'",
+        "ObjectPath": "ManorLords/Content/Translation/WIP/Struct_Translation.0"
+      }
+    },
+    "Rows": {
+      "respond_to_letter": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Respond to the Letter",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odpowiedz na Korespondencję",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "respond_threat_silver": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Respond to the blackmail",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odpowiedz na szantaż",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "respond_threat_silver_give_time": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Respond to the blackmail",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odpowiedz na szantaż",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "promised_to_pay": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Promised to pay",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obietnica zapłaty",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "quest_send_promised_cash": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Send money promised",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wyślij obiecane pieniądze",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      }
+    }
+  }
+]

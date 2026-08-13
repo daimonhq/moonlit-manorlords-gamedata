@@ -1,0 +1,51 @@
+#ifndef UE4SS_SDK_SG_C_Palace_LV1_Cellar_HPP
+#define UE4SS_SDK_SG_C_Palace_LV1_Cellar_HPP
+
+class ASG_C_Palace_LV1_Cellar_C : public AActor
+{
+    class UStaticMeshComponent* Roof_SG_Manor_LV1_Palace_Cellar2_StaticMeshComponent0; // 0x02A8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg8_StaticMeshComponent0;      // 0x02B0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg7_StaticMeshComponent0;      // 0x02B8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg6_StaticMeshComponent0;      // 0x02C0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg5_StaticMeshComponent0;      // 0x02C8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC48_StaticMeshComponent0;            // 0x02D0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC47_StaticMeshComponent0;            // 0x02D8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC46_StaticMeshComponent0;            // 0x02E0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC45_StaticMeshComponent0;            // 0x02E8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC44_StaticMeshComponent0;            // 0x02F0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC43_StaticMeshComponent0;            // 0x02F8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC42_StaticMeshComponent0;            // 0x0300 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC41_StaticMeshComponent0;            // 0x0308 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC40_StaticMeshComponent0;            // 0x0310 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC39_StaticMeshComponent0;            // 0x0318 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC38_StaticMeshComponent0;            // 0x0320 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC37_StaticMeshComponent0;            // 0x0328 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC36_StaticMeshComponent0;            // 0x0330 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC35_StaticMeshComponent0;            // 0x0338 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC34_StaticMeshComponent0;            // 0x0340 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC33_StaticMeshComponent0;            // 0x0348 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC32_StaticMeshComponent0;            // 0x0350 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC31_StaticMeshComponent0;            // 0x0358 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC30_StaticMeshComponent0;            // 0x0360 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC29_StaticMeshComponent0;            // 0x0368 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC28_StaticMeshComponent0;            // 0x0370 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC27_StaticMeshComponent0;            // 0x0378 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC26_StaticMeshComponent0;            // 0x0380 (size: 0x8)
+    class UStaticMeshComponent* UBeam_FillerBoardC25_StaticMeshComponent0;            // 0x0388 (size: 0x8)
+    class UStaticMeshComponent* UGable_Half_Low4_StaticMeshComponent0;                // 0x0390 (size: 0x8)
+    class UStaticMeshComponent* UGable_Half_Low3_StaticMeshComponent0;                // 0x0398 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short57_StaticMeshComponent0;        // 0x03A0 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short56_StaticMeshComponent0;        // 0x03A8 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short55_StaticMeshComponent0;        // 0x03B0 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short54_StaticMeshComponent0;        // 0x03B8 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short53_StaticMeshComponent0;        // 0x03C0 (size: 0x8)
+    class UStaticMeshComponent* sg_j_beams_sg_j_beam_diagonal_39_StaticMeshComponent0; // 0x03C8 (size: 0x8)
+    class UStaticMeshComponent* sg_j_beams_sg_j_beam_diagonal_38_StaticMeshComponent0; // 0x03D0 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short52_StaticMeshComponent0;        // 0x03D8 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short51_StaticMeshComponent0;        // 0x03E0 (size: 0x8)
+    class UStaticMeshComponent* All_Aboard_pivot_short49_StaticMeshComponent0;        // 0x03E8 (size: 0x8)
+    class USceneComponent* palace_lv1_Cellar2_DefaultSceneRoot;                       // 0x03F0 (size: 0x8)
+
+}; // Size: 0x3F8
+
+#endif

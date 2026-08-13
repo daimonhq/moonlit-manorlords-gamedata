@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Growth",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LocalizedText'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "pop_growth": {
+        "en_US": "Monthly Migration",
+        "zh_CN": "每月移民",
+        "zh_TW": "每月遷入人口",
+        "ja_JA": "月ごとの移民",
+        "ko_KR": "매월 이동",
+        "de_DE": "Monatliche Zuwanderung",
+        "es_ES": "Migración mensual",
+        "fr_FR": "Migration mensuelle",
+        "pt_BR": "Migração mensal",
+        "pl_PL": "Miesięczna migracja",
+        "ru_RU": "Ежемесячная миграция",
+        "it_IT": "Migrazione mensile",
+        "tr_TR": "Aylık Göç",
+        "cs_CZ": "Měsíční přistěhovalectví",
+        "hu_HU": "Havi vándorlás",
+        "uk_UA": "Місячна міграція",
+        "da_DK": "Månedlig migration",
+        "nl_NL": "Maandelijkse migratie",
+        "sv_SE": "Månatlig migration"
+      },
+      "EGrowthModifier::NoBurgagePlotAvailability": {
+        "en_US": "No Burgage Plots available",
+        "zh_CN": "无可用的堡地",
+        "zh_TW": "無可用堡地",
+        "ja_JA": "利用可能な生活区画なし",
+        "ko_KR": "거주 구획 사용할 수 없음",
+        "de_DE": "Keine verfügbaren Hofstätten",
+        "es_ES": "No hay señoríos disponibles",
+        "fr_FR": "Aucune censive disponible",
+        "pt_BR": "Sem lotes senhoriais disponíveis",
+        "pl_PL": "Brak parcel mieszkalnych.",
+        "ru_RU": "Нет свободных хозяйств",
+        "it_IT": "Nessun Burgage disponibile",
+        "tr_TR": "Mevcut Tımar Arazisi yok",
+        "cs_CZ": "Žádné dostupné držební domy",
+        "hu_HU": "Nincs elérhető polgári parcella",
+        "uk_UA": "Немає доступних господарств",
+        "da_DK": "Der er ingen ledige borgerlodder",
+        "nl_NL": "Er zijn geen pachtkavels beschikbaar",
+        "sv_SE": "Inga hyrestomter är tillgängliga"
+      },
+      "EGrowthModifier::Approval": {
+        "en_US": "Approval",
+        "zh_CN": "民意",
+        "zh_TW": "民意",
+        "ja_JA": "支持率",
+        "ko_KR": "자격",
+        "de_DE": "Zufriedenheit",
+        "es_ES": "Aprobación",
+        "fr_FR": "Popularité",
+        "pt_BR": "Aprovação",
+        "pl_PL": "Aprobata",
+        "ru_RU": "Одобрение",
+        "it_IT": "Approvazione",
+        "tr_TR": "Memnuniyet",
+        "cs_CZ": "Obliba",
+        "hu_HU": "Elismertség",
+        "uk_UA": "Схвалення",
+        "da_DK": "Tilslutning",
+        "nl_NL": "Populariteit",
+        "sv_SE": "Anseende"
+      },
+      "EGrowthModifier::Base": {
+        "en_US": "Fresh Settlement",
+        "zh_CN": "新定居点",
+        "zh_TW": "新成聚落",
+        "ja_JA": "新たな居留地",
+        "ko_KR": "새 정착지",
+        "de_DE": "Neue Siedlung",
+        "es_ES": "Asentamiento reciente",
+        "fr_FR": "Nouvelle colonie",
+        "pt_BR": "Novo assentamento",
+        "pl_PL": "Nowa osada",
+        "ru_RU": "Новое поселение",
+        "it_IT": "Insediamento nuovo",
+        "tr_TR": "Yeni Yerleşim",
+        "cs_CZ": "Nová osady",
+        "hu_HU": "Új település",
+        "uk_UA": "Нове поселення",
+        "da_DK": "Ny bosættelse",
+        "nl_NL": "Een nieuwe nederzetting",
+        "sv_SE": "Ny bosättning"
+      }
+    }
+  }
+]

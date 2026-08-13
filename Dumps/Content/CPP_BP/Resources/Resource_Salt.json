@@ -1,0 +1,252 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard_GEN_VARIABLE",
+    "Outer": "Resource_Salt_C",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'3d-hammer'",
+        "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+      },
+      "bIsScreenSizeScaled": true,
+      "ScreenSize": 1.0
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resource_Salt_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Resource_Salt_C:SimpleConstructionScript_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Resource'",
+      "ObjectPath": "/Script/ManorLords"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Resource_Salt_C:UserConstructionScript'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Billboard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BillboardComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'Resource_Salt_C:UserConstructionScript'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resource_Salt_C'Default__Resource_Salt_C'",
+      "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "Resource_Salt_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_SetStaticMesh_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Resource_Salt_C",
+    "Name": "Default__Resource_Salt_C",
+    "Class": "BlueprintGeneratedClass'ManorLords/Content/CPP_BP/Resources/Resource_Salt.Resource_Salt_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": "res_salt",
+      "amt": 10,
+      "Type": 145,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Salt_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Salt_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.8"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Resource_Salt_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Salt_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.4"
+      },
+      "VariableGuid": "E63D2699-402A2C2C-8B2798BB-0F9B2E6B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BillboardComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BillboardComponent'Resource_Salt_C:Billboard_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.0"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "94A03983-41338082-C3BA349A-8721E1D4",
+      "InternalVariableName": "Billboard"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Resource_Salt_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Salt_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Salt_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Resource_Salt_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Salt.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Default__Resource_Salt_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'saltMine_halina'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Buildings/building_ZB/Generic/dirtHeap/saltMine_halina.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      }
+    }
+  }
+]

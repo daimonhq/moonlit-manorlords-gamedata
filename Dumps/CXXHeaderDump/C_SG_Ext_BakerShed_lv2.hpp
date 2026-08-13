@@ -1,0 +1,53 @@
+#ifndef UE4SS_SDK_C_SG_Ext_BakerShed_lv2_HPP
+#define UE4SS_SDK_C_SG_Ext_BakerShed_lv2_HPP
+
+class AC_SG_Ext_BakerShed_lv2_C : public AConstructionBP_C
+{
+    class UStaticMeshComponent* SG_BakeryOven_upgrade3_StaticMeshComponent0;          // 0x0568 (size: 0x8)
+    class UStaticMeshComponent* Base_SG_Ext_BakeryShed3_StaticMeshComponent0;         // 0x0570 (size: 0x8)
+    class UStaticMeshComponent* quoinB_luv_bent_left11_StaticMeshComponent0;          // 0x0578 (size: 0x8)
+    class UStaticMeshComponent* quoinB_luv_bent_left12_StaticMeshComponent0;          // 0x0580 (size: 0x8)
+    class UStaticMeshComponent* quoinB_luv_bent_left13_StaticMeshComponent0;          // 0x0588 (size: 0x8)
+    class UStaticMeshComponent* quoinB_luv_bent_left14_StaticMeshComponent0;          // 0x0590 (size: 0x8)
+    class UStaticMeshComponent* quoinB_luv_bent_left15_StaticMeshComponent0;          // 0x0598 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m_Noise10_StaticMeshComponent0;                // 0x05A0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m_Noise11_StaticMeshComponent0;                // 0x05A8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m15_StaticMeshComponent0;                      // 0x05B0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m16_StaticMeshComponent0;                      // 0x05B8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m_Noise12_StaticMeshComponent0;                // 0x05C0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m17_StaticMeshComponent0;                      // 0x05C8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m18_StaticMeshComponent0;                      // 0x05D0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m19_StaticMeshComponent0;                      // 0x05D8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_6m20_StaticMeshComponent0;                      // 0x05E0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m17_StaticMeshComponent0;                      // 0x05E8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m18_StaticMeshComponent0;                      // 0x05F0 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m19_StaticMeshComponent0;                      // 0x05F8 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m20_StaticMeshComponent0;                      // 0x0600 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m21_StaticMeshComponent0;                      // 0x0608 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m22_StaticMeshComponent0;                      // 0x0610 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m23_StaticMeshComponent0;                      // 0x0618 (size: 0x8)
+    class UStaticMeshComponent* UBeam_3m24_StaticMeshComponent0;                      // 0x0620 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_21_StaticMeshComponent0;               // 0x0628 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_22_StaticMeshComponent0;               // 0x0630 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_23_StaticMeshComponent0;               // 0x0638 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_24_StaticMeshComponent0;               // 0x0640 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_25_StaticMeshComponent0;               // 0x0648 (size: 0x8)
+    class UStaticMeshComponent* UBeam_Diagonal_26_StaticMeshComponent0;               // 0x0650 (size: 0x8)
+    class UStaticMeshComponent* Roof_SG_Ext_BakeryShed3_StaticMeshComponent0;         // 0x0658 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg29_StaticMeshComponent0;     // 0x0660 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg30_StaticMeshComponent0;     // 0x0668 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg31_StaticMeshComponent0;     // 0x0670 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg32_StaticMeshComponent0;     // 0x0678 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg33_StaticMeshComponent0;     // 0x0680 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg34_StaticMeshComponent0;     // 0x0688 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg35_StaticMeshComponent0;     // 0x0690 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg36_StaticMeshComponent0;     // 0x0698 (size: 0x8)
+    class UStaticMeshComponent* UBeam_CylinderLowpoly_Peg37_StaticMeshComponent0;     // 0x06A0 (size: 0x8)
+    class UStaticMeshComponent* UGable_Smaller5_StaticMeshComponent0;                 // 0x06A8 (size: 0x8)
+    class UStaticMeshComponent* UGable_Smaller6_StaticMeshComponent0;                 // 0x06B0 (size: 0x8)
+    class UStaticMeshComponent* Cube3_StaticMeshComponent0;                           // 0x06B8 (size: 0x8)
+    class USceneComponent* C_SG_Ext_BakerShed_lv3_DefaultSceneRoot;                   // 0x06C0 (size: 0x8)
+
+}; // Size: 0x6C8
+
+#endif

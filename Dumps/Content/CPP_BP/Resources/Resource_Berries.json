@@ -1,0 +1,654 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Resource_Berries_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Resource_Berries_C:SimpleConstructionScript_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Resource'",
+      "ObjectPath": "/Script/ManorLords"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "berries",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Resource_Berries_C'Default__Resource_Berries_C'",
+      "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Resource_Berries_C",
+    "Name": "Default__Resource_Berries_C",
+    "Class": "BlueprintGeneratedClass'ManorLords/Content/CPP_BP/Resources/Resource_Berries.Resource_Berries_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "resType": "res_berries",
+      "DisplayName": "res_berries",
+      "amt": 8,
+      "Type": 171,
+      "iconTint": {
+        "B": 151,
+        "G": 57,
+        "R": 109,
+        "A": 255,
+        "Hex": "6D3997"
+      },
+      "bSeasonal": true,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Berries_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Resource_Berries_C:StaticMeshComponent0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.12"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Resource_Berries_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.2"
+      },
+      "VariableGuid": "E63D2699-402A2C2C-8B2798BB-0F9B2E6B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.19"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "24E88666-4FA7B68A-27B287AF-ADF81D81",
+      "InternalVariableName": "berries"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries_01_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.18"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "ECFA6EBB-4F24D2E6-9FB65D85-84A5ABDD",
+      "InternalVariableName": "berries_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries1_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.13"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "49A2E7ED-4A800796-4239EAAE-752F9BDF",
+      "InternalVariableName": "berries1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries2_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.14"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1938E666-4E2CDAF1-0DD111A0-3A35E78C",
+      "InternalVariableName": "berries2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries3_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.15"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AAECF2F5-4FC218DA-4604F48C-F2E469D5",
+      "InternalVariableName": "berries3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries4_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.16"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9A717739-48DCAFFE-DB7F13B4-6A08B124",
+      "InternalVariableName": "berries4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Resource_Berries_C:berries5_GEN_VARIABLE'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.17"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "113A9F98-45F0C252-17B754B7-82AD7B7B",
+      "InternalVariableName": "berries5"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.4"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.5"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.7"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.8"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.9"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.4"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.5"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.6"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.7"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.8"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.9"
+        },
+        {
+          "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Resource_Berries_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/Resources/Resource_Berries.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Default__Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'stc_oak_photog_young_shrubA'",
+        "ObjectPath": "ManorLords/Content/ManorLords/Environment/Foliage/Trees/Oak/stc_oak_photog_young_shrubA.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'STC_SimpleBranch_Shrub_BerryResource'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/TreeVoyage/STC_Oak_PG/texture_branch/STC_SimpleBranch_Shrub_BerryResource.0"
+        }
+      ],
+      "bRenderCustomDepth": true,
+      "CustomDepthStencilValue": 255,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic"
+      },
+      "RelativeScale3D": {
+        "X": 11.0,
+        "Y": 11.0,
+        "Z": 11.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries1_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 2.8742328,
+        "Y": 8.061526,
+        "Z": 25.098955
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -69.3565,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries2_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 13.413945,
+        "Y": 9.946381,
+        "Z": 25.098955
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -152.29025,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries3_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 17.774666,
+        "Y": 2.5225983,
+        "Z": 21.378345
+      },
+      "RelativeRotation": {
+        "Pitch": 4.0981133E-05,
+        "Yaw": -173.98808,
+        "Roll": 58.866714
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries4_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 8.442505,
+        "Y": -12.034887,
+        "Z": 21.144194
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00011611321,
+        "Yaw": -266.5271,
+        "Roll": 58.866013
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries5_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": 13.413945,
+        "Y": -3.3148644,
+        "Z": 28.541222
+      },
+      "RelativeRotation": {
+        "Pitch": -24.880451,
+        "Yaw": -167.39265,
+        "Roll": 62.00526
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries_01_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": -9.388444,
+        "Y": 5.862459,
+        "Z": 17.597935
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 26.820587,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "berries_GEN_VARIABLE",
+    "Outer": "Resource_Berries_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'raspberry_fruit_mega_noLeaves'",
+        "ObjectPath": "ManorLords/Content/Megascans/3D_Plants/Raspberry_wf0oefeja/raspberry_fruit_mega_noLeaves.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeLocation": {
+        "X": -5.934236,
+        "Y": -10.88551,
+        "Z": 25.098955
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 71.20885,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.71240675,
+        "Y": 0.71240675,
+        "Z": 0.71240675
+      },
+      "ComponentTags": [
+        "res"
+      ]
+    }
+  }
+]
