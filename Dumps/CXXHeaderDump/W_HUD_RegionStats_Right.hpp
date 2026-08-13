@@ -25,7 +25,7 @@ class UW_HUD_RegionStats_Right_C : public UNaviSubGrid
     FNaviSubGridLayout ComputeSubGridLayout();
     void UpdateApproval();
     void GetSuppliesToolTip(FText& Result);
-    void updateStats();
+    void UpdateStats();
     void BndEvt__W_HUD_RegionPanelV2_ApprovalButton_K2Node_ComponentBoundEvent_3_OnHovered__DelegateSignature(class UW_MaterialButton_C* MyWidget, bool Hovered);
     void BndEvt__W_HUD_RegionPanelV2_ApprovalButton_K2Node_ComponentBoundEvent_5_OnInitToolTip__DelegateSignature(class UUserWidget* InToolTip, class UNaviUi* InSourceButton);
     void BndEvt__W_HUD_RegionStats_Right_WealthButton_K2Node_ComponentBoundEvent_3_OnInitToolTip__DelegateSignature(class UUserWidget* InToolTip, class UNaviUi* InSourceButton);

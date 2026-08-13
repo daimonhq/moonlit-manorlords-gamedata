@@ -13,7 +13,7 @@ class UpolicyWidget_C : public UUserWidget
     int32 policyTier;                                                                 // 0x0308 (size: 0x4)
     FpolicyWidget_CShouldUpdatePolicyView shouldUpdatePolicyView;                     // 0x0310 (size: 0x10)
     void shouldUpdatePolicyView();
-    bool WIP;                                                                         // 0x0320 (size: 0x1)
+    bool wip;                                                                         // 0x0320 (size: 0x1)
 
     void ApplyPlatformLimits(bool IsDesignTime);
     void forcePlayEventMessage(FText textSecondary, FText Text, FName msgType);

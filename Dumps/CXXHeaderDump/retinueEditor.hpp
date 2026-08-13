@@ -13,7 +13,7 @@ class UretinueEditor_C : public UNaviSubGrid
     class UOverlay* armours_t1_4;                                                     // 0x03A0 (size: 0x8)
     class UOverlay* armours_t1_5;                                                     // 0x03A8 (size: 0x8)
     class UVerticalBox* armoury_vb;                                                   // 0x03B0 (size: 0x8)
-    class UBorder* blackBg;                                                           // 0x03B8 (size: 0x8)
+    class UBorder* blackbg;                                                           // 0x03B8 (size: 0x8)
     class UHorizontalBox* bodyPattern_HB;                                             // 0x03C0 (size: 0x8)
     class UButton* Button_1;                                                          // 0x03C8 (size: 0x8)
     class UButton* cat_next_1;                                                        // 0x03D0 (size: 0x8)

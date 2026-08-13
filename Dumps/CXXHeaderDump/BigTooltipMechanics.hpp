@@ -12,7 +12,7 @@ class UBigTooltipMechanics_C : public UUserWidget
     class UWidget_HeaderBg_C* Widget_HeaderBg;                                        // 0x0300 (size: 0x8)
     FName headerKey;                                                                  // 0x0308 (size: 0x8)
     FName mainTextKey;                                                                // 0x0310 (size: 0x8)
-    class UDataTable* TranslationDataTable;                                           // 0x0318 (size: 0x8)
+    class UDataTable* translationDataTable;                                           // 0x0318 (size: 0x8)
 
     void Tick(FGeometry MyGeometry, float InDeltaTime);
     void updateText(FName headerKey, FName mainTextKey);

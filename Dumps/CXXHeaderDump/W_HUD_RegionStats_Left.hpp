@@ -23,7 +23,7 @@ class UW_HUD_RegionStats_Left_C : public UNaviSubGrid
 
     FNaviSubGridLayout ComputeSubGridLayout();
     void GetSuppliesToolTip(FText& Result);
-    void updateStats();
+    void UpdateStats();
     void BndEvt__W_HUD_RegionPanelV2_AssignedFamilyButton_K2Node_ComponentBoundEvent_1_OnInitToolTip__DelegateSignature(class UUserWidget* InToolTip, class UNaviUi* InSourceButton);
     void BndEvt__W_HUD_RegionPanelV2_LivingSpaceButton_K2Node_ComponentBoundEvent_2_OnInitToolTip__DelegateSignature(class UUserWidget* InToolTip, class UNaviUi* InSourceButton);
     void BndEvt__W_HUD_RegionStats_Right_LivestockButton_K2Node_ComponentBoundEvent_4_OnInitToolTip__DelegateSignature(class UUserWidget* InToolTip, class UNaviUi* InSourceButton);

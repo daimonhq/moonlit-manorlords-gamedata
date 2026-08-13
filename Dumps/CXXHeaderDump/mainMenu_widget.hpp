@@ -34,7 +34,7 @@ class UmainMenu_widget_C : public UMLMainMenuScreen
     class UW_MainMenuButton_C* menuButton_settings;                                   // 0x0668 (size: 0x8)
     class UCanvasPanel* Sphash;                                                       // 0x0670 (size: 0x8)
     class UW_Splash_C* SplashImage;                                                   // 0x0678 (size: 0x8)
-    class UTextBlock* ver;                                                            // 0x0680 (size: 0x8)
+    class UTextBlock* Ver;                                                            // 0x0680 (size: 0x8)
     UDLSSMode DLSS_used;                                                              // 0x0688 (size: 0x1)
     class UMLGameStartScreen* main_menu_lordCustomization;                            // 0x0690 (size: 0x8)
     class UMLGameSetupScreen* GameSetupWidget;                                        // 0x0698 (size: 0x8)

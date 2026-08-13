@@ -36,7 +36,7 @@ class UsaveSlot_widget_C : public UUserWidget
     bool IsSaveDeprecated?();
     void CleanupForMapEntry();
     void ApplyEditableTextLimit(const FText& InText);
-    void setSaveSlotData(FString Level Name, FString saveName, const FDateTime& date, FString ver);
+    void setSaveSlotData(FString Level Name, FString saveName, const FDateTime& date, FString Ver);
     void Construct();
     void PreConstruct(bool IsDesignTime);
     void deleteConfirmed(bool confirmed);

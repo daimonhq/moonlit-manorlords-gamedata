@@ -58,7 +58,7 @@ class UsquadStats_C : public UUserWidget
     FUnitStat unitStats;                                                              // 0x0470 (size: 0x48)
     double meleeTraining;                                                             // 0x04B8 (size: 0x8)
 
-    void updateStats();
+    void UpdateStats();
     void Construct();
     void ExecuteUbergraph_squadStats(int32 EntryPoint);
 }; // Size: 0x4C0

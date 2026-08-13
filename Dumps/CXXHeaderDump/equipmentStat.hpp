@@ -9,7 +9,7 @@ class UequipmentStat_C : public UUserWidget
     int32 goodID;                                                                     // 0x02E8 (size: 0x4)
 
     void updateHas(int32 has);
-    void updateStats(int32 has, int32 needs);
+    void UpdateStats(int32 has, int32 needs);
     void PreConstruct(bool IsDesignTime);
     void ExecuteUbergraph_equipmentStat(int32 EntryPoint);
 }; // Size: 0x2EC
